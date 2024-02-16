@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: 80vh;
+    width: auto;
+    background-color: rgb(16, 16, 59);
+
+}
+
+nav {
+    height: 70px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.logo-img {
+    height: 70px;
+    width: 20%;
+    background-color: transparent;
+    text-align: right;
+
+
+}
+
+.nav-center {
+    height: 70px;
+    width: 50%;
+    background-color: transparent;
+}
+
+.right-nav {
+    height: 70px;
+    width: 30%;
+    background-color: transparent;
+}
+
+.logo-img .logo {
+    height: 40px;
+    padding-top: 12px;
+    padding-right: 20px;
+
+}
+
+.nav-center ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-center li {
+    display: inline-block;
+    float: left;
+    padding: 25px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-center ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    font-size: 16px;
+    font-family: century gothic;
+    padding: 3px 15px;
+}
+
+nav ul li:after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    left: 23px;
+    /* right: 23px; */
+    bottom: 20px;
+    transition: 0.4s;
+}
+
+nav ul li:hover::after {
+    width: 60%;
+}
+
+.right-nav .btn-2 {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(82, 143, 235);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-top: 18px;
+    font-family: century gothic;
+
+}
+
+.right-nav .btn-1 {
+    height: 30px;
+    width: 80px;
+    font-family: century gothic;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.main1 {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    min-height: 400px;
+    width: 60%;
+    background-color: black;
+    text-align: center;
+}
+
+.center h5 {
+    font-family: century gothic;
+    padding-top: 80px;
+    font-size: 12px;
+    color: white;
+}
+
+.center h1 {
+    font-family: century gothic;
+    font-size: 45px;
+    padding-top: 25px;
+    color: white;
+}
+
+.center p {
+    color: white;
+    font-family: century gothic;
+    padding-top: 20px;
+}
+
+.center .bbttnn {
+    height: 32px;
+    min-width: 120px;
+    margin-top: 25px;
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    font-family: century gothic;
+    border-radius: 5px;
+
+}
+
+.center .bbtt {
+    height: 32px;
+    background-color: rgb(82, 143, 235);
+    border: 1px white solid;
+    color: white;
+    min-width: 120px;
+    border-radius: 5px;
+    font-family: century gothic;
+    margin-top: 25px;
+}
+
+.card-div {
+    min-height: 350px;
+    width: auto;
+    display: flex;
+    background-color: rgb(70, 70, 185);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-div .card-1 {
+    min-height: 270px;
+    width: 280px;
+    border-radius: 3px;
+    background-color: aqua;
+}
+
+.card-div .card-2 {
+    min-height: 270px;
+    width: 280px;
+    border-radius: 3px;
+    background-color: aqua;
+}
+
+.card-div .card-3 {
+    min-height: 270px;
+    width: 280px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(82, 143, 235);
+}
+
+.card-div .card-1 img {
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: auto;
+}
+
+.card-div .card-2 img {
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: auto;
+}
+
+.card-div .card-3 img {
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: auto;
+
+}
+
+.card-div .card-3 h3 {
+    font-family: century gothic;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-2 h3 {
+    font-family: century gothic;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-1 h3 {
+    font-family: century gothic;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-3 h6 {
+    font-family: century gothic;
+    padding-top: 10px;
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-2 h6 {
+    font-family: century gothic;
+    padding-top: 10px;
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-1 h6 {
+    font-family: century gothic;
+    padding-top: 10px;
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-3 p {
+    font-family: century gothic;
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-2 p {
+    font-family: century gothic;
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.card-div .card-1 p {
+    font-family: century gothic;
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 30px;
+}
